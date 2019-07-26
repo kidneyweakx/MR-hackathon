@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        StartGame(true);
+        // StartGame(true);
     }
     public void PlayerUnderAttack()
     {
@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
                 Destroy(elment.gameObject);
             }
             healthImahe.enabled = false;
-            //ModeTrantitionManager.instance.SetMixedRealityModeAR(true);
+            ModeTrantitionManager.instance.SetMixedRealityModeAR(true);
         }
     }
     void SetHealthMask(int value)

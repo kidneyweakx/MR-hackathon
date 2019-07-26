@@ -51,7 +51,7 @@ public class EnterTrigger : MonoBehaviour
     {
         _Collider.enabled = false;
         isAction = true;
-        //ModeTrantitionManager.instance.SetMixedRealityModeAR(false);
+        ModeTrantitionManager.instance.SetMixedRealityModeAR(false);
         GameManager.instance.StartGame(true);        
     }
 }

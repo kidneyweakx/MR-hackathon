@@ -402,8 +402,16 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Vuforia
+  - m_BuildTarget: iPhone
+    m_Enabled: 1
+    m_Devices:
+    - Vuforia
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Android
+    m_Enabled: 1
+  - m_BuildTarget: iPhone
+    m_Enabled: 1
+  - m_BuildTarget: Windows Store Apps
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -421,7 +429,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Camera access required for target detection and tracking
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 
@@ -640,7 +648,10 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    4: VUFORIA_IOS_SETTINGS
+    7: VUFORIA_ANDROID_SETTINGS
+    14: VUFORIA_WSA_SETTINGS
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
@@ -676,7 +687,11 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
     a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  platformCapabilities: {}
+  platformCapabilities:
+    WindowsStoreApps:
+      InternetClient: True
+      Microphone: True
+      WebCam: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 
   metroFTAFileTypes: []
