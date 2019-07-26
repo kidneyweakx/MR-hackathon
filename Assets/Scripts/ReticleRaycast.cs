@@ -22,7 +22,7 @@ public class ReticleRaycast : MonoBehaviour
         if (Physics.Raycast(_Transform.position, _Transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, eneterLayer))
         {
 			_Image.color = Color.yellow;
-            hit.collider.GetComponent<EnterTrigger>().OnTrigger();
+            // hit.collider.GetComponent<EnterTrigger>().OnTrigger();
             return;
         }
 		_Image.color = currentColor;
