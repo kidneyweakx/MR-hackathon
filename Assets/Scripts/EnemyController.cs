@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour {
-    public int health = 5;
+    public int health = 3; // Enemy health
     private Transform m_Transform;
     private Animator m_Animator;
     private Transform _PlayerTrans;
