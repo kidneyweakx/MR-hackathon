@@ -897,7 +897,7 @@ MonoBehaviour:
   scrollPos: {x: 125, y: 83}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 342.5
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -908,7 +908,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1481127193}
   selectedCommands:
-  - {fileID: 1481127204}
+  - {fileID: 1481127200}
   variables: []
   description: 
   stepPause: 0
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "\u4F60\u4EE5\u70BA\u96A8\u4FBF\u7576\u91CC\u9577\u767C\u5927\u8CA1\u54EA{wc}\n\u60F3\u5F97\u7F8E!!!!!!!!!!!!!!!!"
+  storyText: "\u4F60\u4EE5\u70BA\u7576\u4E0A\u91CC\u9577\u5C31\u80FD\u767C\u5927\u8CA1\u55CE\uFF1F\uFF1F{wc}\n\u60F3\u5F97\u7F8E!!!!!!!!!!!"
   description: 
   character: {fileID: 353935588}
   portrait: {fileID: 0}
