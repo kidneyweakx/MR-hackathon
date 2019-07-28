@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public GameObject loser;
     public int playerHealth = 10;
     public Image healthImahe;
     void Awake()
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
             }
             healthImahe.enabled = false;
             ModeTrantitionManager.instance.SetMixedRealityModeAR(true);
+            loser.SetActive(true);
         }
     }
     void SetHealthMask(int value)
