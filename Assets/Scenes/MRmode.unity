@@ -310,53 +310,13 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &454623055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 838892598166475214, guid: dd0a27396cf250145acb134b5601b7b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 838892598015962753}
-  m_PrefabAsset: {fileID: 0}
---- !u!21 &505998156
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'successMaterial
-
-    61436'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b9b4a2c27d474310ad3a10d8800e96c8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!4 &563652706 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 664df781dc9dd434da1822a245f736cf,
-    type: 3}
-  m_PrefabInstance: {fileID: 74802043}
-  m_PrefabAsset: {fileID: 0}
---- !u!43 &620245313
+--- !u!43 &435063651
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh60728
+  m_Name: ImageTargetMesh-124588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -513,6 +473,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &563652706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 664df781dc9dd434da1822a245f736cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 74802043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &638193118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -763,16 +729,16 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 346111819}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1057767367
+--- !u!21 &1300229870
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'taichangMaterial
+  m_Name: 'enterMaterial
 
-    60740'
+    -125610'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -785,7 +751,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c1d40e547cae45d591b4b6cdba8cf2b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4ce99f0f28ac4adf9bb383da105a7538, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1147,25 +1113,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efb54a4cb4174214891c8b896fe30166, type: 3}
---- !u!1 &1793028495 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1846463187523726515, guid: 806b396d3b0823b4b81cd0c61e0929ed,
-    type: 3}
-  m_PrefabInstance: {fileID: 1846463185757969724}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1896124068 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400010, guid: b0a63b292a17a0047beeea969fe3d92f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2075915633}
-  m_PrefabAsset: {fileID: 0}
---- !u!43 &1993874536
+--- !u!43 &1755788723
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh61424
+  m_Name: ImageTargetMesh-125580
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1177,7 +1131,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.34000006, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.28125}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1256,7 +1210,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 7d14aebe00000000000000bf000000000000803f0000000000000000000000007d14aebe000000000000003f000000000000803f00000000000000000000803f7d14ae3e00000000000000bf000000000000803f000000000000803f000000007d14ae3e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000000090be000000000000803f000000000000000000000000000000bf000000000000903e000000000000803f00000000000000000000803f0000003f00000000000090be000000000000803f000000000000803f000000000000003f000000000000903e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1322,6 +1276,46 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1793028495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1846463187523726515, guid: 806b396d3b0823b4b81cd0c61e0929ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1846463185757969724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1896124068 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400010, guid: b0a63b292a17a0047beeea969fe3d92f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2075915633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!21 &2030837788
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'taichangMaterial
+
+    -124592'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 786211b07b76476eb7f41fdb87edd927, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1001 &2075915633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1461,7 +1455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loser: {fileID: 2095183634}
-  MR: {fileID: 454623055}
 --- !u!114 &2145541715 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114469613180427196, guid: 5d2615643811c3f408673438a51c38e8,
@@ -1545,12 +1538,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1057767367}
+      objectReference: {fileID: 2030837788}
     - target: {fileID: 838892598875986800, guid: dd0a27396cf250145acb134b5601b7b8,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 620245313}
+      objectReference: {fileID: 435063651}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0a27396cf250145acb134b5601b7b8, type: 3}
 --- !u!1001 &1846463185757969724
@@ -1693,11 +1686,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 505998156}
+      objectReference: {fileID: 1300229870}
     - target: {fileID: 5167862130725572254, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1993874536}
+      objectReference: {fileID: 1755788723}
+    - target: {fileID: 5167862130725572255, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572255, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572255, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572258, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: mTrackableName
+      value: enter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572258, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/NationPark.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572258, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: mAspectRatio
+      value: 0.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572258, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: mWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167862130725572258, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1,
+        type: 3}
+      propertyPath: mHeight
+      value: 0.5625
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c25b1a44c56c154c9b9e46f96f1a6d1, type: 3}
