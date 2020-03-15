@@ -1,6 +1,4 @@
 # **AR/VR 練習(黑客松比賽項目)**
-##### **紀念圖片**
-![黑客松花絮](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-01.jpg)
 ## 介紹
 使用unity開發的MR(混合實境)遊戲，以黑客松規定**1661國姓來襲**為背景所設計的遊戲，利用cardboard來遊玩，主要使用[Vuforia](https://developer.vuforia.com/)作為AR的認證的後台。
 
@@ -11,6 +9,9 @@
 - 3ds Max
 AR/VR
 - Vuforia
+
+#### 使用說明
+克隆該專案，至vuforia官網申請並放上下方兩張圖，即可在各平台遊玩。
 
 ![守護開山里](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-02.jpg)
 #### 背景故事
@@ -36,6 +37,9 @@ AR/VR
 ![結束畫面](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-06.jpg)
 射擊畫面
 ![射擊畫面](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-07.jpg)
+
+##### **比賽紀念圖片**
+![黑客松花絮](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-01.jpg)
 
 #### ref.
 [Vuforia MR](https://youtu.be/ZyE7buC-n3s)
